@@ -9,6 +9,8 @@ which got wet and damaged. It was easier and cheaper to put an
 [sci2can](https://github.com/butyi/sci2can).
 board into the light instead of buy another.
 
+![Mini Power Supply Board](https://github.com/butyi/gateflashlight/blob/main/gateflashlight.jpg)
+
 ## Software
 
 Software is pure assembly code.

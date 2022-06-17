@@ -1,0 +1,19 @@
+; ====================  VARIABLES  =============================================
+#RAM
+
+; ===================== Sub-Routines ==========================================
+#ROM
+
+; ------------------------------------------------------------------------------
+; Real-Time Counter (S08RTCV1)
+; This is periodic timer. (Like PIT in AZ60, TBM in GZ60 in the past) 
+;  - Select external clock (RTCLKS = 1)
+;  - RTCPS = 1 (2^10 means 4MHz/1024 = 3.9kHz)
+; Here I use only RTCCNT register with fastest speed for random number
+RTC_Init
+        ; Set up registers
+        mov     #RTCLKS0_|1,RTCSC
+        mov     #255,RTCMOD
+        rts
+
+

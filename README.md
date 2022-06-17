@@ -86,7 +86,7 @@ Supply of light is 230V AC. I used a small 230V-5V supply board to have 5V for
 the microcontroller board.
 Search "AC 230V to DC5V Converter Mini Switching Power Supply Module Board" on ebay.
 
-![Mini Power Supply Board](https://github.com/butyi/gateflashlight/raw/master/mini_power_supply_board.png)
+![Mini Power Supply Board](https://github.com/butyi/gateflashlight/blob/main/mini_power_supply_board.png)
 
 ## License
 
